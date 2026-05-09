@@ -44,6 +44,11 @@ int main() {
     continue;
 }
 
+//exit
+if(string(args[0]) == "exit") {
+    break;
+}
+
     // create child process
     pid_t pid = fork();
 
